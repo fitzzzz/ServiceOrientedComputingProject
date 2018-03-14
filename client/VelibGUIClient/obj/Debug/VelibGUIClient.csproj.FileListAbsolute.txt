@@ -1,0 +1,10 @@
+c:\users\davidlang\source\repos\VelibGUIClient\VelibGUIClient\bin\Debug\VelibGUIClient.exe.config
+c:\users\davidlang\source\repos\VelibGUIClient\VelibGUIClient\bin\Debug\VelibGUIClient.exe
+c:\users\davidlang\source\repos\VelibGUIClient\VelibGUIClient\bin\Debug\VelibGUIClient.pdb
+c:\users\davidlang\source\repos\VelibGUIClient\VelibGUIClient\obj\Debug\VelibGUIClient.Form1.resources
+c:\users\davidlang\source\repos\VelibGUIClient\VelibGUIClient\obj\Debug\VelibGUIClient.Properties.Resources.resources
+c:\users\davidlang\source\repos\VelibGUIClient\VelibGUIClient\obj\Debug\VelibGUIClient.csproj.GenerateResource.Cache
+c:\users\davidlang\source\repos\VelibGUIClient\VelibGUIClient\obj\Debug\VelibGUIClient.csproj.CoreCompileInputs.cache
+c:\users\davidlang\source\repos\VelibGUIClient\VelibGUIClient\obj\Debug\VelibGUIClient.exe
+c:\users\davidlang\source\repos\VelibGUIClient\VelibGUIClient\obj\Debug\VelibGUIClient.pdb
+c:\users\davidlang\source\repos\VelibGUIClient\VelibGUIClient\obj\Debug\VelibGUIClient.csprojResolveAssemblyReference.cache

@@ -1,0 +1,9 @@
+c:\users\davidlang\source\repos\VelibSoapService\VelibSoapService\bin\Debug\VelibSoapService.dll.config
+c:\users\davidlang\source\repos\VelibSoapService\VelibSoapService\bin\Debug\VelibSoapService.dll
+c:\users\davidlang\source\repos\VelibSoapService\VelibSoapService\bin\Debug\VelibSoapService.pdb
+c:\users\davidlang\source\repos\VelibSoapService\VelibSoapService\obj\Debug\VelibSoapService.csproj.CoreCompileInputs.cache
+c:\users\davidlang\source\repos\VelibSoapService\VelibSoapService\obj\Debug\VelibSoapService.dll
+c:\users\davidlang\source\repos\VelibSoapService\VelibSoapService\obj\Debug\VelibSoapService.pdb
+c:\users\davidlang\source\repos\VelibSoapService\VelibSoapService\bin\Debug\Newtonsoft.Json.dll
+c:\users\davidlang\source\repos\VelibSoapService\VelibSoapService\bin\Debug\Newtonsoft.Json.xml
+c:\users\davidlang\source\repos\VelibSoapService\VelibSoapService\obj\Debug\VelibSoapService.csprojResolveAssemblyReference.cache
