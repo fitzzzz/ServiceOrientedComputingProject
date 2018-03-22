@@ -1,0 +1,10 @@
+C:\Users\DavidLANG\source\repos\MathLibraryGUI\MathLibraryGUI\bin\Debug\MathLibraryGUI.exe.config
+C:\Users\DavidLANG\source\repos\MathLibraryGUI\MathLibraryGUI\bin\Debug\MathLibraryGUI.exe
+C:\Users\DavidLANG\source\repos\MathLibraryGUI\MathLibraryGUI\bin\Debug\MathLibraryGUI.pdb
+C:\Users\DavidLANG\source\repos\MathLibraryGUI\MathLibraryGUI\obj\Debug\MathLibraryGUI.csprojResolveAssemblyReference.cache
+C:\Users\DavidLANG\source\repos\MathLibraryGUI\MathLibraryGUI\obj\Debug\MathLibraryGUI.Form1.resources
+C:\Users\DavidLANG\source\repos\MathLibraryGUI\MathLibraryGUI\obj\Debug\MathLibraryGUI.Properties.Resources.resources
+C:\Users\DavidLANG\source\repos\MathLibraryGUI\MathLibraryGUI\obj\Debug\MathLibraryGUI.csproj.GenerateResource.Cache
+C:\Users\DavidLANG\source\repos\MathLibraryGUI\MathLibraryGUI\obj\Debug\MathLibraryGUI.csproj.CoreCompileInputs.cache
+C:\Users\DavidLANG\source\repos\MathLibraryGUI\MathLibraryGUI\obj\Debug\MathLibraryGUI.exe
+C:\Users\DavidLANG\source\repos\MathLibraryGUI\MathLibraryGUI\obj\Debug\MathLibraryGUI.pdb
