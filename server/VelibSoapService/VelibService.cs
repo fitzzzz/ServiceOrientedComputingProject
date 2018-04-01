@@ -12,16 +12,23 @@ namespace VelibSoapService
     {
 
         private VelibAPIRequeter apiRequeter = new VelibAPIRequeter();
+        private static Logger    logger      = new Logger();
         
 
         public VelibStation getStation(string cityID, int stationID)
         {
-            return this.apiRequeter.getCityInformation(cityID, stationID);
+            logger.logCurrentRequest();
+            VelibStation result = this.apiRequeter.getCityInformation(cityID, stationID);
+            logger.addEntryToCache();
+            return result;
         }
 
         public List<VelibStation> getStations(string cityID)
         {
-            return this.apiRequeter.getAllStation(cityID);
+            logger.logCurrentRequest();
+            List<VelibStation> result = this.apiRequeter.getAllStation(cityID);
+            logger.addEntryToCache();
+            return result;
         }
     }
 }

@@ -38,6 +38,9 @@ namespace VelibGUIClient.ServiceReference1 {
         private int numberOfPointAttacheAvailableField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private VelibGUIClient.ServiceReference1.Position positionField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string stationNameField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
@@ -119,6 +122,19 @@ namespace VelibGUIClient.ServiceReference1 {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
+        public VelibGUIClient.ServiceReference1.Position position {
+            get {
+                return this.positionField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.positionField, value) != true)) {
+                    this.positionField = value;
+                    this.RaisePropertyChanged("position");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
         public string stationName {
             get {
                 return this.stationNameField;
@@ -140,6 +156,67 @@ namespace VelibGUIClient.ServiceReference1 {
                 if ((this.stationNumberField.Equals(value) != true)) {
                     this.stationNumberField = value;
                     this.RaisePropertyChanged("stationNumber");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Position", Namespace="http://schemas.datacontract.org/2004/07/VelibSoapService")]
+    [System.SerializableAttribute()]
+    public partial class Position : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private double latField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private double lngField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public double lat {
+            get {
+                return this.latField;
+            }
+            set {
+                if ((this.latField.Equals(value) != true)) {
+                    this.latField = value;
+                    this.RaisePropertyChanged("lat");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public double lng {
+            get {
+                return this.lngField;
+            }
+            set {
+                if ((this.lngField.Equals(value) != true)) {
+                    this.lngField = value;
+                    this.RaisePropertyChanged("lng");
                 }
             }
         }

@@ -33,6 +33,7 @@ namespace VelibGUIClient
             this.adressStationText.Text         = station.address;
             this.stationNameText.Text           = station.stationName;
             this.terminalPaiementText.Text      = (station.banking == false) ? "Non" : "Oui";
+            this.gmap.Position                  = new GMap.NET.PointLatLng(station.position.lat, station.position.lng);
         }
 
         private void cityChanged(object sender, EventArgs e)
@@ -45,6 +46,13 @@ namespace VelibGUIClient
             {
                 this.stationCombobox.Items.Add(station.stationName);
             }
+        }
+
+        private void gmap_Load(object sender, EventArgs e)
+        {
+            gmap.MapProvider = GMap.NET.MapProviders.BingMapProvider.Instance;
+            GMap.NET.GMaps.Instance.Mode = GMap.NET.AccessMode.ServerOnly;
+            gmap.SetPositionByKeywords("Paris, France");
         }
     }
 }

@@ -1,0 +1,7 @@
+C:\Users\DavidLANG\Desktop\repoSOO\ServiceOrientedComputingProject-master\client-console\clientConsole\clientConsole\bin\Debug\clientConsole.exe.config
+C:\Users\DavidLANG\Desktop\repoSOO\ServiceOrientedComputingProject-master\client-console\clientConsole\clientConsole\bin\Debug\clientConsole.exe
+C:\Users\DavidLANG\Desktop\repoSOO\ServiceOrientedComputingProject-master\client-console\clientConsole\clientConsole\bin\Debug\clientConsole.pdb
+C:\Users\DavidLANG\Desktop\repoSOO\ServiceOrientedComputingProject-master\client-console\clientConsole\clientConsole\obj\Debug\clientConsole.csprojResolveAssemblyReference.cache
+C:\Users\DavidLANG\Desktop\repoSOO\ServiceOrientedComputingProject-master\client-console\clientConsole\clientConsole\obj\Debug\clientConsole.csproj.CoreCompileInputs.cache
+C:\Users\DavidLANG\Desktop\repoSOO\ServiceOrientedComputingProject-master\client-console\clientConsole\clientConsole\obj\Debug\clientConsole.exe
+C:\Users\DavidLANG\Desktop\repoSOO\ServiceOrientedComputingProject-master\client-console\clientConsole\clientConsole\obj\Debug\clientConsole.pdb

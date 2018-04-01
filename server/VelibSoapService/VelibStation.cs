@@ -40,5 +40,22 @@ namespace VelibSoapService
         [JsonProperty("number")]
         public int stationNumber;
 
+        [DataMember]
+        [JsonProperty("position")]
+        public Position position;
+        
+    }
+
+    [DataContract]
+    public class Position
+    {
+        [DataMember]
+        [JsonProperty("lat")]
+        public double lat;
+
+
+        [DataMember]
+        [JsonProperty("lng")]
+        public double lng;
     }
 }

@@ -13,9 +13,17 @@
       <xs:element minOccurs="0" name="banking" type="xs:boolean" />
       <xs:element minOccurs="0" name="numberOfPointAttache" type="xs:int" />
       <xs:element minOccurs="0" name="numberOfPointAttacheAvailable" type="xs:int" />
+      <xs:element minOccurs="0" name="position" nillable="true" type="tns:Position" />
       <xs:element minOccurs="0" name="stationName" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="stationNumber" type="xs:int" />
     </xs:sequence>
   </xs:complexType>
   <xs:element name="VelibStation" nillable="true" type="tns:VelibStation" />
+  <xs:complexType name="Position">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="lat" type="xs:double" />
+      <xs:element minOccurs="0" name="lng" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Position" nillable="true" type="tns:Position" />
 </xs:schema>
