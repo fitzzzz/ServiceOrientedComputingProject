@@ -5,3 +5,10 @@ C:\Users\DavidLANG\Desktop\repoSOO\ServiceOrientedComputingProject-master\client
 C:\Users\DavidLANG\Desktop\repoSOO\ServiceOrientedComputingProject-master\client-console\clientConsole\clientConsole\obj\Debug\clientConsole.csproj.CoreCompileInputs.cache
 C:\Users\DavidLANG\Desktop\repoSOO\ServiceOrientedComputingProject-master\client-console\clientConsole\clientConsole\obj\Debug\clientConsole.exe
 C:\Users\DavidLANG\Desktop\repoSOO\ServiceOrientedComputingProject-master\client-console\clientConsole\clientConsole\obj\Debug\clientConsole.pdb
+G:\Polytech\SI4\ServiceOrientedComputing\ServiceOrientedComputingProject\client-console\clientConsole\clientConsole\obj\Debug\clientConsole.csprojResolveAssemblyReference.cache
+G:\Polytech\SI4\ServiceOrientedComputing\ServiceOrientedComputingProject\client-console\clientConsole\clientConsole\obj\Debug\clientConsole.csproj.CoreCompileInputs.cache
+G:\Polytech\SI4\ServiceOrientedComputing\ServiceOrientedComputingProject\client-console\clientConsole\clientConsole\obj\Debug\clientConsole.exe
+G:\Polytech\SI4\ServiceOrientedComputing\ServiceOrientedComputingProject\client-console\clientConsole\clientConsole\obj\Debug\clientConsole.pdb
+G:\Polytech\SI4\ServiceOrientedComputing\ServiceOrientedComputingProject\client-console\clientConsole\clientConsole\bin\Debug\clientConsole.exe.config
+G:\Polytech\SI4\ServiceOrientedComputing\ServiceOrientedComputingProject\client-console\clientConsole\clientConsole\bin\Debug\clientConsole.exe
+G:\Polytech\SI4\ServiceOrientedComputing\ServiceOrientedComputingProject\client-console\clientConsole\clientConsole\bin\Debug\clientConsole.pdb

@@ -25,3 +25,12 @@ C:\Users\DavidLANG\Desktop\repoSOO\ServiceOrientedComputingProject-master\server
 C:\Users\DavidLANG\Desktop\repoSOO\ServiceOrientedComputingProject-master\server\VelibSoapService\bin\Debug\VelibSoapService.pdb
 C:\Users\DavidLANG\Desktop\repoSOO\ServiceOrientedComputingProject-master\server\VelibSoapService\bin\Debug\Newtonsoft.Json.dll
 C:\Users\DavidLANG\Desktop\repoSOO\ServiceOrientedComputingProject-master\server\VelibSoapService\bin\Debug\Newtonsoft.Json.xml
+G:\Polytech\SI4\ServiceOrientedComputing\ServiceOrientedComputingProject\server\VelibSoapService\obj\Debug\VelibSoapService.csprojResolveAssemblyReference.cache
+G:\Polytech\SI4\ServiceOrientedComputing\ServiceOrientedComputingProject\server\VelibSoapService\obj\Debug\VelibSoapService.csproj.CoreCompileInputs.cache
+G:\Polytech\SI4\ServiceOrientedComputing\ServiceOrientedComputingProject\server\VelibSoapService\obj\Debug\VelibSoapService.dll
+G:\Polytech\SI4\ServiceOrientedComputing\ServiceOrientedComputingProject\server\VelibSoapService\obj\Debug\VelibSoapService.pdb
+G:\Polytech\SI4\ServiceOrientedComputing\ServiceOrientedComputingProject\server\VelibSoapService\bin\Debug\VelibSoapService.dll.config
+G:\Polytech\SI4\ServiceOrientedComputing\ServiceOrientedComputingProject\server\VelibSoapService\bin\Debug\VelibSoapService.dll
+G:\Polytech\SI4\ServiceOrientedComputing\ServiceOrientedComputingProject\server\VelibSoapService\bin\Debug\VelibSoapService.pdb
+G:\Polytech\SI4\ServiceOrientedComputing\ServiceOrientedComputingProject\server\VelibSoapService\bin\Debug\Newtonsoft.Json.dll
+G:\Polytech\SI4\ServiceOrientedComputing\ServiceOrientedComputingProject\server\VelibSoapService\bin\Debug\Newtonsoft.Json.xml

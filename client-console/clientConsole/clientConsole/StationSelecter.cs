@@ -1,7 +1,8 @@
-﻿using clientConsole.VelibServiceReference;
+﻿using clientConsole.VelibService;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.ServiceModel;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -9,39 +10,34 @@ namespace clientConsole
 {
     class StationSelecter
     {
-        private VelibServiceClient client = new VelibServiceClient();
+        private VelibServiceClient client;
+
+        public StationSelecter(VelibServiceClient client)
+        {
+            this.client = client;
+        }
 
         public void DisplayStations(String city)
         {
-            VelibStation[] stations = client.getStations(city);
-            
-            foreach (VelibStation station in stations)
-            {
-                Console.WriteLine("\t" + station.stationName);
-            }
+            client.GetStations(city);
         }
         
 
-        public VelibStation SelectStations(String city)
+        public void SelectStations(String city)
         {
-            VelibStation station = null;
-
             int stationID;
-            while (station == null)
+            Console.Write("Veuillez selectionner le numéro de la station voulue : ");
+            if (int.TryParse(Console.ReadLine(), out stationID))
             {
-                Console.Write("Veuillez selectionner le numéro de la station voulue : ");
-                if (int.TryParse(Console.ReadLine(), out stationID))
+                try
                 {
-                    try
-                    {
-                        station = client.getStation(city, stationID);
-                    } catch (Exception e)
-                    {
-                        Console.WriteLine("Numéro de station incorrect");
-                    }
+                    client.GetStation(city, stationID);
+                } catch (Exception e)
+                {
+                    Console.WriteLine("Numéro de station incorrect");
                 }
             }
-            return station;
+           
         }
 
     }

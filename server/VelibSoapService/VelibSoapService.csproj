@@ -52,6 +52,7 @@
     <Compile Include="DataLogs.cs" />
     <Compile Include="IMonitoringService.cs" />
     <Compile Include="IVelibService.cs" />
+    <Compile Include="IVelibServiceEvents.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="LoggerCache.cs" />
     <Compile Include="MonitoringService.cs" />

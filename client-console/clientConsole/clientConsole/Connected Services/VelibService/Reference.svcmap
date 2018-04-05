@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d2bab846-d5b3-4a38-9ae5-fe7053f2b72d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="20a10f7f-c7c5-46a7-978a-0c4851cc8e29" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,10 +22,10 @@
     <MetadataSource Address="http://localhost:8733/VelibSoapService/VelibService/?wsdl" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="bb1c8ff2-78ec-4770-b0ca-f284e31c717f" SourceId="1" SourceUrl="http://localhost:8733/VelibSoapService/VelibService/?xsd=xsd0" />
-    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="2a774e47-0b78-4724-b358-403f6844eddb" SourceId="1" SourceUrl="http://localhost:8733/VelibSoapService/VelibService/?xsd=xsd2" />
-    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="5c485ce0-a43f-43c2-a71f-5a0f257e651c" SourceId="1" SourceUrl="http://localhost:8733/VelibSoapService/VelibService/?xsd=xsd1" />
-    <MetadataFile FileName="VelibService.wsdl" MetadataType="Wsdl" ID="a2d7fa6d-33b2-4d8c-b749-39b16de8738f" SourceId="1" SourceUrl="http://localhost:8733/VelibSoapService/VelibService/?wsdl" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="e87144ac-5593-4c99-84fc-f270749461eb" SourceId="1" SourceUrl="http://localhost:8733/VelibSoapService/VelibService/?xsd=xsd0" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="bfd3477b-829d-46f1-a60c-04f043554e77" SourceId="1" SourceUrl="http://localhost:8733/VelibSoapService/VelibService/?xsd=xsd2" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="53eca533-0974-4f43-a619-2618f99b46a0" SourceId="1" SourceUrl="http://localhost:8733/VelibSoapService/VelibService/?xsd=xsd1" />
+    <MetadataFile FileName="VelibService.wsdl" MetadataType="Wsdl" ID="f9da786d-5eca-40c4-a614-3b95a0af3266" SourceId="1" SourceUrl="http://localhost:8733/VelibSoapService/VelibService/?wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

@@ -1,6 +1,8 @@
-﻿using System;
+﻿using clientConsole.VelibService;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.ServiceModel;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,8 +12,12 @@ namespace clientConsole
     {
         static void Main(string[] args)
         {
-            Shell shell = new Shell();
+            VelibServiceClient client = new VelibServiceClient(new InstanceContext(new VelibServiceCallbackSink()));
+            client.SubscribeGetStation();
+            client.SubscribeGetStations();
 
+            Shell shell = new Shell(client);
+            
             shell.Run();
         }
     }

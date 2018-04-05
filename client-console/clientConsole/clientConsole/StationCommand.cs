@@ -1,4 +1,4 @@
-﻿using clientConsole.VelibServiceReference;
+﻿using clientConsole.VelibService;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,24 +10,18 @@ namespace clientConsole
     class StationCommand
     {
 
-        private StationSelecter stationSelecter = new StationSelecter();
+        private StationSelecter stationSelecter;
 
-        private void DisplayInformation(VelibStation station)
+
+        public StationCommand(VelibServiceClient client)
         {
-            Console.WriteLine("Information de la station : " + station.stationName);
-            Console.WriteLine("\tNombre de points d'attaches : " + station.numberOfPointAttache);
-            Console.WriteLine("\tNombre de points d'attaches disponibles : " + station.numberOfPointAttacheAvailable);
-            Console.WriteLine("\tAdresse : " + station.address);
-            Console.WriteLine("\tNombre de vélos disponibles : " + station.availableBikes);
-            Console.WriteLine("\tPaiement par carte : " + ((station.banking == true) ? "Oui" : "Non" ));
-
+            stationSelecter = new StationSelecter(client);
         }
 
         public void run(String city)
         {
             stationSelecter.DisplayStations(city);
-            VelibStation station = stationSelecter.SelectStations(city);
-            DisplayInformation(station);
+            stationSelecter.SelectStations(city);
         }
 
     }

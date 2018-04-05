@@ -47,7 +47,7 @@
     <Compile Include="cityCommand.cs" />
     <Compile Include="CitySelecter.cs" />
     <Compile Include="CommandInterpreter.cs" />
-    <Compile Include="Connected Services\VelibServiceReference\Reference.cs">
+    <Compile Include="Connected Services\VelibService\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -57,37 +57,35 @@
     <Compile Include="Shell.cs" />
     <Compile Include="StationCommand.cs" />
     <Compile Include="StationSelecter.cs" />
+    <Compile Include="VelibServiceCallbackSink.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Connected Services\VelibServiceReference\clientConsole.VelibServiceReference.VelibStation.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Connected Services\VelibServiceReference\item.xsd">
+    <None Include="Connected Services\VelibService\item.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\VelibServiceReference\item1.xsd">
+    <None Include="Connected Services\VelibService\item1.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\VelibServiceReference\item2.xsd">
+    <None Include="Connected Services\VelibService\item2.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\VelibServiceReference\VelibService.wsdl" />
+    <None Include="Connected Services\VelibService\VelibService.wsdl" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\VelibServiceReference\" />
+    <WCFMetadataStorage Include="Connected Services\VelibService\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\VelibServiceReference\configuration91.svcinfo" />
+    <None Include="Connected Services\VelibService\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\VelibServiceReference\configuration.svcinfo" />
+    <None Include="Connected Services\VelibService\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\VelibServiceReference\Reference.svcmap">
+    <None Include="Connected Services\VelibService\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>

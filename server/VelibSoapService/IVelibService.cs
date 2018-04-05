@@ -7,13 +7,20 @@ using System.Threading.Tasks;
 
 namespace VelibSoapService
 {
-    [ServiceContract]
+    [ServiceContract(CallbackContract = typeof(IVelibServiceEvents))]
     public interface IVelibService
     {
         [OperationContract]
-        List<VelibStation> getStations(string cityID);
+        void GetStations(string cityID);
 
         [OperationContract]
-        VelibStation getStation(string cityID, int stationID);
+        void GetStation(string cityID, int stationID);
+
+        [OperationContract]
+        void SubscribeGetStations();
+
+        [OperationContract]
+        void SubscribeGetStation();
+
     }
 }

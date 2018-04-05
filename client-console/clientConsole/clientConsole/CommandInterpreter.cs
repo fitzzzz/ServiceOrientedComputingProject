@@ -1,4 +1,5 @@
-﻿using System;
+﻿using clientConsole.VelibService;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,9 +10,16 @@ namespace clientConsole
     class CommandInterpreter
     {
 
-        private cityCommand    cityCommand    = new cityCommand();
-        private StationCommand stationCommand = new StationCommand();
+        private cityCommand    cityCommand;
+        private StationCommand stationCommand;
         private String         currentCity    = "Lyon";
+
+
+        public CommandInterpreter(VelibServiceClient client)
+        {
+            this.cityCommand = new cityCommand();
+            this.stationCommand = new StationCommand(client);
+        }
 
         private string getFirstWord(string command)
         {

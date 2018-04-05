@@ -1,4 +1,5 @@
-﻿using System;
+﻿using clientConsole.VelibService;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +10,14 @@ namespace clientConsole
     class Shell
     {
 
-        private CommandInterpreter interpreter = new CommandInterpreter();
+        private CommandInterpreter interpreter;
+        private VelibServiceClient client;
+
+        public Shell(VelibServiceClient client)
+        {
+            this.client = client;
+            this.interpreter =  new CommandInterpreter(client);
+        }
 
         private void PrintPrompt()
         {
